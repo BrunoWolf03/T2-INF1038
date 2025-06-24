@@ -1,0 +1,56 @@
+Age:
+Atributo numérico discreto que descreve a idade do devedor.
+Valor Máximo: 75
+Valor Mínimo: 19
+Desvio Padrão: 11.38
+
+Sex:
+Atributo categórico nominal que descreve o genero do devedor.
+[('male', 690), ('female', 310)]
+
+Job:
+Atributo categórico ordinal que descreve o trabalho do devedor.
+(0 - unskilled and non-resident, 1 - unskilled and resident, 2 - skilled, 3 - highly skilled)
+[(2, 630), (1, 200), (3, 148), (0, 22)]
+
+Housing:
+Atributo categórico nominal que descreve se tem propriedadede uma casa, posse de uma casa ou mora de graça.
+[('own', 713), ('rent', 179), ('free', 108)]
+
+Saving accounts:
+Atributo categórico ordinal que descreve o quanto tem guardado na conta poupança.
+[('little', 603), ('moderate', 103), ('quite rich', 63), ('rich', 48)]
+
+Checking account:
+Era pra ter valores numéricos, mas nao tem, nao sei muito bem oq pode ser.
+Atributo categórico ordinal que descreve o quanto tem guardado na conta corrente.
+[('little', 274), ('moderate', 269), ('rich', 63)]
+
+Credit amount:
+Atributo numérico continuo que descreve o valor do crédito requisitado pelo devedor.
+
+Duration:
+Atributo numérico discreto que descreve quanto tempo o devedor vai demorar para quitar os créditos. 
+Valor Máximo: 72
+Valor Mínimo: 4
+Desvio Padrão: 12.06
+
+Purpose:
+Atributo categórico nominal que descreve o motivo do devedor estar pegando os créditos.
+[('car', 337),
+ ('radio/TV', 280),
+ ('furniture/equipment', 181),
+ ('business', 97),
+ ('education', 59),
+ ('repairs', 22),
+ ('domestic appliances', 12),
+ ('vacation/others', 12)]
+
+Risk:
+Target de previsão, duas classes(good = 1, bad = 0)
+Risk
+good    700
+bad     300
+usei smote para balancear
+
+
